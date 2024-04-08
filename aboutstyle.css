@@ -35,8 +35,12 @@ nav {
 }
 
 nav a {
+    font-family: 'Helveltica', sans-serif;
+    color: grey;
     text-decoration: none;
-    color: white;
+    margin: 0 10px;
+}
+
 }
 
 section {
