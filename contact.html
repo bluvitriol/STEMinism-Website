@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: #fff;
+            color:darkslateblue;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 8px;
+        }
+
+        input, textarea {
+            padding: 10px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #ec0a9d;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #e40f68;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <p>Feel free to reach out to us at:</p>
+        <p>Contact: 012345678</p>
+        <p>Email: steminist@gmail.com</p>
+        <h2>Connect With Us!</h2>
+        <p>Join us in this movement to make the STEM world a better workspace for women!</p>
+    
+        <form action="contact.html">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Kathani Sharma" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="ks@gmail.com" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" placeholder="We will be pleased to hear about your experiences, feelings and feedback here:)" required></textarea>
+
+            <label>Would you like to receive all the latest updates and our amazing newsletters?</label>
+            <input type="checkbox">
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+</html>

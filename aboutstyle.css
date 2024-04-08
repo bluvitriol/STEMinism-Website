@@ -1,0 +1,55 @@
+body {
+    background-image: url("C:\Users\Lenovo\Pictures\Saved Pictures\stemwomen4.jpg");
+    /* font-family: 'Arial', sans-serif; */
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: #008080;
+}
+
+header {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #5F9EA0;
+    color: rgb(114, 5, 84);
+    padding: 20px;
+    text-align: center;
+    text-decoration: none
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav {
+    font-family: 'Helveltica', sans-serif;
+    background-color: rgba(247, 241, 241, 0.735); 
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    padding: 10px;
+    text-decoration: none
+    color(#6883BC #6883BC #6883BC #6883BC);
+}
+
+footer {
+    background-color: #43433d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
